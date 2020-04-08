@@ -1,8 +1,28 @@
 .student-list {
+    .student-filter {
+        font-size: 1.2rem;
+        margin: 20px 0;
+        border: 1px solid #ccc;
+        padding: 10px 15px 15px;
+
+        .col-2 {
+            align-self: center;
+
+            &.filter-btn {
+                align-self: flex-end;
+
+                .btn {
+                    font-size: 1.2rem;
+                }
+            }
+        }
+    }
+
     .student-item {
         border: 1px solid #ccc;
         padding: 10px;
         margin-bottom: 20px;
+        border-radius: 4px;
 
         .details-link {
             > span {
@@ -19,7 +39,9 @@
         .edit-link {
             color: #007bff;
             display: block;
+            text-align: center;
             text-decoration: underline;
+            margin: 10px 0 0;
         }
     }
 }

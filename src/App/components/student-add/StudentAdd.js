@@ -68,7 +68,7 @@ class StudentAdd extends React.Component {
                             onChange={this.onChangeHandler}
                             value={student.school}
                         >
-                            <option>select</option>
+                            <option value="">select</option>
                             <option value="School 1">School 1</option>
                             <option value="School 2">School 2</option>
                             <option value="School 3">School 3</option>
@@ -84,7 +84,7 @@ class StudentAdd extends React.Component {
                             onChange={this.onChangeHandler}
                             value={student.standard}
                         >
-                            <option>select</option>
+                            <option value="">select</option>
                             <option value="Standard 1">Standard 1</option>
                             <option value="Standard 2">Standard 2</option>
                             <option value="Standard 3">Standard 3</option>
@@ -100,7 +100,7 @@ class StudentAdd extends React.Component {
                             onChange={this.onChangeHandler}
                             value={student.division}
                         >
-                            <option>select</option>
+                            <option value="">select</option>
                             <option value="Division 1">Division 1</option>
                             <option value="Division 2">Division 2</option>
                             <option value="Division 3">Division 3</option>

@@ -5,18 +5,25 @@ const INITIAL_STATE = {
         {
             id: 1,
             name: "A",
-            email: "a@a.com",
-            mobile: "1",
-            state: "x",
-            country: "y",
-            school: "1",
-            standard: "2",
-            division: "3"
+            email: "dhananjaymane11@gmail.com",
+            mobile: "8237584493",
+            school: "School 2",
+            standard: "Standard 1",
+            division: "Division 4",
+            state: "Maharashtra",
+            country: "India"
         },
-        { id: 2, name: 'B' },
-        { id: 3, name: 'C' },
-        { id: 4, name: 'D' },
-        { id: 5, name: 'E' },
+        {
+            id: 2,
+            name: "B",
+            email: "dhananjaymane11@gmail.com",
+            mobile: "8237584493",
+            school: "School 1",
+            standard: "Standard 3",
+            division: "Division 2",
+            state: "Maharashtra",
+            country: "India"
+        },
     ]
 }
 

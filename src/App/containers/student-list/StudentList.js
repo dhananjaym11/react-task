@@ -3,14 +3,35 @@ import { connect } from 'react-redux';
 
 import './StudentList.scss';
 import StudentList from '../../components/student-list/StudentList';
+import StudentFilter from '../../components/student-filter/StudentFilter';
 
 class StudentListContainer extends React.Component {
+    state = {
+        filters: {}
+    }
 
     onAddHandler = () => {
         this.props.history.push('/students/add');
     }
 
+    onFilterHandler = (filters) => {
+        console.log(filters);
+        this.setState({
+            filters
+        })
+    }
+
     render() {
+        const filters = { ...this.state.filters };
+        const filteredStudents = this.props.students.filter(s => {
+            if (filters.school || filters.standard || filters.division) {
+                return (filters.school ? s.school === filters.school : s) &&
+                    (filters.standard ? s.standard === filters.standard : s) &&
+                    (filters.division ? s.division === filters.division : s);
+            } else {
+                return s
+            }
+        });
         return (
             <div className="student-list">
                 <h2 className="clearfix">
@@ -21,10 +42,16 @@ class StudentListContainer extends React.Component {
                         onClick={this.onAddHandler}
                     >Add Student</button>
                 </h2>
-                <StudentList
-                    students={this.props.students}
+                <StudentFilter
+                    onFilterHandler={this.onFilterHandler}
                 />
-            </div>
+                {filteredStudents.length ?
+                    <StudentList
+                        students={filteredStudents}
+                    /> :
+                    <p style={{ textAlign: 'center', marginTop: 50 }}> No data found.</p >
+                }
+            </div >
         )
     }
 }
