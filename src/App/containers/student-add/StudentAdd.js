@@ -37,6 +37,10 @@ class StudentAddContainer extends React.Component {
         this.props.history.push('/students');
     }
 
+    onCancelHandler = () => {
+        this.props.history.push('/students');
+    }
+
     render() {
         return (
             <div className="student-add">
@@ -44,6 +48,7 @@ class StudentAddContainer extends React.Component {
                 <StudentAdd
                     student={this.state.student}
                     onSubmitHandler={this.onSubmitHandler}
+                    onCancelHandler={this.onCancelHandler}
                 />
             </div>
         )

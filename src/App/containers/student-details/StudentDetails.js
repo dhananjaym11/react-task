@@ -19,6 +19,10 @@ class StudentDetailsContainer extends React.Component {
         }
     }
 
+    onBackHandler = () => {
+        this.props.history.push('/students');
+    }
+
     render() {
         return (
             <div className="student-details">
@@ -26,6 +30,13 @@ class StudentDetailsContainer extends React.Component {
                 <StudentDetails
                     student={this.state.student}
                 />
+                <div style={{ margin: '20px 0' }}>
+                    <button
+                        type="button"
+                        className="btn btn-primary"
+                        onClick={this.onBackHandler}
+                    >Back</button>
+                </div>
             </div>
         )
     }

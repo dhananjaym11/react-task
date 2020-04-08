@@ -135,6 +135,11 @@ class StudentAdd extends React.Component {
                         className="btn btn-primary"
                         onClick={this.onSubmitHandler}
                     >Submit</button>
+                    <button
+                        type="button"
+                        className="btn btn-secondary"
+                        onClick={this.props.onCancelHandler}
+                    >Cancel</button>
                 </div>
             </form>
         )

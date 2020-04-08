@@ -33,4 +33,8 @@ a {
 
 .btn {
   font-size: 1.4rem;
+
+  + .btn {
+    margin-left: 10px;
+  }
 }
