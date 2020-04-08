@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
+import './StudentDetails.scss';
 import StudentDetails from '../../components/student-details/StudentDetails';
 
 class StudentDetailsContainer extends React.Component {
@@ -20,12 +21,12 @@ class StudentDetailsContainer extends React.Component {
 
     render() {
         return (
-            <>
+            <div className="student-details">
                 <h2>Student Details</h2>
                 <StudentDetails
                     student={this.state.student}
                 />
-            </>
+            </div>
         )
     }
 }

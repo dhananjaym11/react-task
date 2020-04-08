@@ -1,6 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux';
 
+import './StudentAdd.scss';
 import * as actions from '../../core/actions';
 import StudentAdd from '../../components/student-add/StudentAdd';
 
@@ -38,13 +39,13 @@ class StudentAddContainer extends React.Component {
 
     render() {
         return (
-            <>
+            <div className="student-add">
                 <h2>Add Student</h2>
                 <StudentAdd
                     student={this.state.student}
                     onSubmitHandler={this.onSubmitHandler}
                 />
-            </>
+            </div>
         )
     }
 }

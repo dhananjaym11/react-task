@@ -6,22 +6,40 @@ const StudentItem = ({ student }) => (
         <div className="student-item">
             <Link to={`/students/${student.id}`} className="details-link">
                 <span>
-                    Id: <span>{student.id}</span>
+                    <span>Id: </span>
+                    <span>{student.id}</span>
                 </span>
                 <span>
-                    Name: <span>{student.name}</span>
+                    <span>Name: </span>
+                    <span>{student.name}</span>
                 </span>
                 <span>
-                    Email: <span>{student.email}</span>
+                    <span>Email: </span>
+                    <span>{student.email}</span>
                 </span>
                 <span>
-                    Mobile: <span>{student.mobile}</span>
+                    <span>School Name:</span>
+                    <span>{student.school}</span>
                 </span>
                 <span>
-                    State: <span>{student.state}</span>
+                    <span>Standard:</span>
+                    <span> {student.standard}</span>
                 </span>
                 <span>
-                    Country: <span>{student.country}</span>
+                    <span>Division:</span>
+                    <span>{student.division}</span>
+                </span>
+                <span>
+                    <span>Mobile: </span>
+                    <span>{student.mobile}</span>
+                </span>
+                <span>
+                    <span>State: </span>
+                    <span>{student.state}</span>
+                </span>
+                <span>
+                    <span>Country: </span>
+                    <span>{student.country}</span>
                 </span>
             </Link>
             <Link to={`/students/edit/${student.id}`} className="edit-link">

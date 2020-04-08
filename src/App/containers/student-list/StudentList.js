@@ -13,8 +13,9 @@ class StudentListContainer extends React.Component {
     render() {
         return (
             <div className="student-list">
-                <h2>Student List
-                <button
+                <h2 className="clearfix">
+                    Student List
+                    <button
                         type="button"
                         className="btn btn-primary float-right"
                         onClick={this.onAddHandler}

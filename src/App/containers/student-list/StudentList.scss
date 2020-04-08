@@ -7,10 +7,11 @@
         .details-link {
             > span {
                 display: block;
-                font-weight: 600;
 
-                > span {
-                    font-weight: 400;
+                > span:first-child {
+                    font-weight: 600;
+                    display: inline-block;
+                    width: 110px;
                 }
             }
         }

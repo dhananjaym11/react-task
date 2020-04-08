@@ -8,7 +8,10 @@ const INITIAL_STATE = {
             email: "a@a.com",
             mobile: "1",
             state: "x",
-            country: "y"
+            country: "y",
+            school: "1",
+            standard: "2",
+            division: "3"
         },
         { id: 2, name: 'B' },
         { id: 3, name: 'C' },
