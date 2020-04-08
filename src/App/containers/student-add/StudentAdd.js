@@ -20,12 +20,18 @@ class StudentAddContainer extends React.Component {
     }
 
     onSubmitHandler = (student) => {
-        const lastMemberId = this.props.students.length ? this.props.students[this.props.students.length - 1].id : 0;
-        const newHero = {
-            id: lastMemberId + 1,
-            ...student
+        let students = null;
+        const orgStudents = this.props.students
+        if (student.id) {
+            students = orgStudents.map(s => s.id === student.id ? ({ ...student }) : s);
+        } else {
+            const lastMemberId = orgStudents.length ? orgStudents[orgStudents.length - 1].id : 0;
+            const updatedStudent = {
+                id: lastMemberId + 1,
+                ...student
+            }
+            students = [...orgStudents, updatedStudent];
         }
-        const students = [...this.props.students, newHero];
         this.props.updateStudents(students);
         this.props.history.push('/students');
     }
@@ -33,7 +39,7 @@ class StudentAddContainer extends React.Component {
     render() {
         return (
             <>
-                <h2>Student Add</h2>
+                <h2>Add Student</h2>
                 <StudentAdd
                     student={this.state.student}
                     onSubmitHandler={this.onSubmitHandler}

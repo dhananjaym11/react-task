@@ -6,6 +6,9 @@ const StudentItem = ({ student }) => (
         <Link to={`/students/${student.id}`}>
             <span>{student.name}</span>
         </Link>
+        <Link to={`/students/edit/${student.id}`}>
+            <span>Edit</span>
+        </Link>
     </li>
 )
 
