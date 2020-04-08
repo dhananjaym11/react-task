@@ -11,7 +11,7 @@ const INITIAL_STATE = {
 const reducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
         case UPDATE_STUDENTS:
-            return { ...state, result: action.response };
+            return { ...state, students: action.payload };
         default:
             return state;
     }

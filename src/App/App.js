@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
-import './App.css';
 import StudentListContainer from './containers/student-list/StudentList';
 import StudentDetailsContainer from './containers/student-details/StudentDetails';
+import StudentAddContainer from './containers/student-add/StudentAdd';
 import HeroesContainer from './containers/heroes/Heroes';
 import HeroContainer from './containers/hero/Hero';
 import UsersContainer from './containers/users/Users';
@@ -17,7 +17,10 @@ class App extends Component {
         <BrowserRouter>
           <Layout>
             <Switch>
+              <Redirect exact from="/" to="students" />
               <Route exact path="/students" component={StudentListContainer} />
+              <Route exact path="/students/add" component={StudentAddContainer} />
+              <Route exact path="/students/edit/:id" component={StudentAddContainer} />
               <Route exact path="/students/:id" component={StudentDetailsContainer} />
               <Route exact path="/heroes" component={HeroesContainer} />
               <Route exact path="/heroes/:id" component={HeroContainer} />
