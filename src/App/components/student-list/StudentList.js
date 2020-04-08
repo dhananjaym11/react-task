@@ -3,12 +3,12 @@ import React from 'react';
 import StudentItem from '../student-item/StudentItem';
 
 const StudentList = ({ students }) => (
-    <ul>
+    <div className="row">
         {students.map(student => <StudentItem
             key={student.id}
             student={student}
         />)}
-    </ul>
+    </div>
 )
 
 export default StudentList;

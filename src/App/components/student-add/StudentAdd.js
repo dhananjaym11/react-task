@@ -2,9 +2,7 @@ import React from 'react';
 
 class StudentAdd extends React.Component {
     state = {
-        student: {
-            name: ''
-        }
+        student: {}
     }
 
     componentDidUpdate() {
@@ -41,6 +39,47 @@ class StudentAdd extends React.Component {
                         value={student.name}
                     />
                 </div>
+                <div className="form-group">
+                    <label>Email Address</label>
+                    <input
+                        type="email"
+                        name='email'
+                        className="form-control"
+                        onChange={this.onChangeHandler}
+                        value={student.email}
+                    />
+                </div>
+                <div className="form-group">
+                    <label>Mobile phone number</label>
+                    <input
+                        type="text"
+                        name='mobile'
+                        className="form-control"
+                        onChange={this.onChangeHandler}
+                        value={student.mobile}
+                    />
+                </div>
+                <div className="form-group">
+                    <label>State</label>
+                    <input
+                        type="text"
+                        name='state'
+                        className="form-control"
+                        onChange={this.onChangeHandler}
+                        value={student.state}
+                    />
+                </div>
+                <div className="form-group">
+                    <label>Country</label>
+                    <input
+                        type="text"
+                        name='country'
+                        className="form-control"
+                        onChange={this.onChangeHandler}
+                        value={student.country}
+                    />
+                </div>
+
                 <button
                     type="button"
                     className="btn btn-primary"

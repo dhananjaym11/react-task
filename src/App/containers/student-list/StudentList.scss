@@ -1,0 +1,24 @@
+.student-list {
+    .student-item {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 20px;
+
+        .details-link {
+            > span {
+                display: block;
+                font-weight: 600;
+
+                > span {
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .edit-link {
+            color: #007bff;
+            display: block;
+            text-decoration: underline;
+        }
+    }
+}
