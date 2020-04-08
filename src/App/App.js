@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import './App.css';
-import HomeContainer from './containers/home/Home';
+import StudentListContainer from './containers/student-list/StudentList';
+import StudentDetailsContainer from './containers/student-details/StudentDetails';
 import HeroesContainer from './containers/heroes/Heroes';
 import HeroContainer from './containers/hero/Hero';
 import UsersContainer from './containers/users/Users';
@@ -16,7 +17,8 @@ class App extends Component {
         <BrowserRouter>
           <Layout>
             <Switch>
-              <Route exact path="/" component={HomeContainer} />
+              <Route exact path="/students" component={StudentListContainer} />
+              <Route exact path="/students/:id" component={StudentDetailsContainer} />
               <Route exact path="/heroes" component={HeroesContainer} />
               <Route exact path="/heroes/:id" component={HeroContainer} />
               <Route exact path="/users" component={UsersContainer} />

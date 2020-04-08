@@ -1,7 +1,5 @@
-/* --- HOME --- */
-export const LOAD_DASHBOARD = 'LOAD_DASHBOARD';
-export const LOAD_DASHBOARD_SUCCESS = 'LOAD_DASHBOARD_SUCCESS';
-export const LOAD_DASHBOARD_ERROR = 'LOAD_DASHBOARD_ERROR';
+/* --- STUDENTS --- */
+export const UPDATE_STUDENTS = 'UPDATE_STUDENTS';
 
 /* --- USERS --- */
 export const LOAD_USERS = 'LOAD_USERS';
