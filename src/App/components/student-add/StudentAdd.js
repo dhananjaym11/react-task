@@ -2,7 +2,16 @@ import React from 'react';
 
 class StudentAdd extends React.Component {
     state = {
-        student: {}
+        student: {
+            name: '',
+            email: '',
+            mobile: '',
+            school: '',
+            standard: '',
+            division: '',
+            state: '',
+            country: ''
+        }
     }
 
     componentDidUpdate() {

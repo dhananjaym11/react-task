@@ -1,24 +1,2 @@
 /* --- STUDENTS --- */
 export const UPDATE_STUDENTS = 'UPDATE_STUDENTS';
-
-/* --- USERS --- */
-export const LOAD_USERS = 'LOAD_USERS';
-export const LOAD_USERS_SUCCESS = 'LOAD_USERS_SUCCESS';
-export const LOAD_USERS_ERROR = 'LOAD_USERS_ERROR';
-
-/* --- USER --- */
-export const LOAD_USER = 'LOAD_USER';
-export const LOAD_USER_SUCCESS = 'LOAD_USER_SUCCESS';
-export const LOAD_USER_ERROR = 'LOAD_USER_ERROR';
-export const REMOVE_USER = 'REMOVE_USER';
-
-/* --- HEROES --- */
-export const LOAD_HEROES_SUCCESS = 'LOAD_HEROES_SUCCESS';
-export const LOAD_HEROES_ERROR = 'LOAD_HEROES_ERROR';
-export const UPDATE_HEROES = 'UPDATE_HEROES';
-
-/* --- LOGIN --- */
-export const INIT_LOGIN_SUCCESS = 'INIT_LOGIN_SUCCESS';
-export const INIT_LOGIN_ERROR = 'INIT_LOGIN_ERROR';
-export const INIT_LOGOUT_SUCCESS = 'INIT_LOGOUT_SUCCESS';
-export const INIT_LOGOUT_ERROR = 'INIT_LOGOUT_ERROR';

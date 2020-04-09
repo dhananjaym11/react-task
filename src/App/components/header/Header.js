@@ -12,18 +12,8 @@ const Header = () => (
         <div className="float-right">
             <ul className="header-links clearfix">
                 <li>
-                    <Link to="/">
-                        <span>Home</span>
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/heroes">
-                        <span>Heroes</span>
-                    </Link>
-                </li>
-                <li>
-                    <Link to="/users">
-                        <span>Users</span>
+                    <Link to="/students">
+                        <span>Students</span>
                     </Link>
                 </li>
             </ul>
