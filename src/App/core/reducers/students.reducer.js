@@ -4,9 +4,9 @@ const INITIAL_STATE = {
     students: [
         {
             id: 1,
-            name: "A",
-            email: "dhananjaymane11@gmail.com",
-            mobile: "8237584493",
+            name: "Aa",
+            email: "aa@gmail.com",
+            mobile: "1234567890",
             school: "School 2",
             standard: "Standard 1",
             division: "Division 4",
@@ -15,9 +15,9 @@ const INITIAL_STATE = {
         },
         {
             id: 2,
-            name: "B",
-            email: "dhananjaymane11@gmail.com",
-            mobile: "8237584493",
+            name: "Bb",
+            email: "bb@gmail.com",
+            mobile: "1234567890",
             school: "School 1",
             standard: "Standard 3",
             division: "Division 2",

@@ -1,5 +1,8 @@
 import React from 'react';
 
+import * as validations from '../../utility/validations';
+import * as constants from '../../utility/constants';
+
 class StudentAdd extends React.Component {
     state = {
         student: {
@@ -11,7 +14,13 @@ class StudentAdd extends React.Component {
             division: '',
             state: '',
             country: ''
-        }
+        },
+        errors: {
+            name: '',
+            email: '',
+            mobile: ''
+        },
+        globalError: ''
     }
 
     componentDidUpdate() {
@@ -24,18 +33,44 @@ class StudentAdd extends React.Component {
 
     onChangeHandler = (e) => {
         const student = { ...this.state.student };
+        const errors = { ...this.state.errors };
         student[e.target.name] = e.target.value;
+        errors[e.target.name] = '';
+
+        if ((e.target.name === 'name' || e.target.name === 'state' || e.target.name === 'country')
+            && !(validations.validateName(e.target.value))) {
+            errors[e.target.name] = constants.ERROR_NAME;
+        }
+        if (e.target.name === 'email' && !(validations.validateEmail(e.target.value))) {
+            errors[e.target.name] = constants.ERROR_EMAIL;
+        }
+        if (e.target.name === 'mobile' && !(validations.validateMobile(e.target.value))) {
+            errors[e.target.name] = constants.ERROR_MOBILE;
+        }
+
         this.setState({
-            student
+            student,
+            errors
         })
     }
 
     onSubmitHandler = () => {
+        const emptyData = Object.values(this.state.student).filter(s => s === '');
+        const isError = Object.values(this.state.errors).filter(e => e !== '');
+        if (emptyData.length || isError.length !== 0) {
+            this.setState({
+                globalError: constants.ERROR_GLOBAL
+            });
+            return false;
+        };
+        this.setState({
+            globalError: ''
+        });
         this.props.onSubmitHandler(this.state.student);
     }
 
     render() {
-        const student = this.state.student;
+        const { student, errors, globalError } = this.state;
         return (
             <form>
                 <div className="row">
@@ -48,6 +83,7 @@ class StudentAdd extends React.Component {
                             onChange={this.onChangeHandler}
                             value={student.name}
                         />
+                        {errors.name && <p className="error">{errors.name}</p>}
                     </div>
                     <div className="form-group col-4">
                         <label>Email Address</label>
@@ -58,6 +94,7 @@ class StudentAdd extends React.Component {
                             onChange={this.onChangeHandler}
                             value={student.email}
                         />
+                        {errors.email && <p className="error">{errors.email}</p>}
                     </div>
                     <div className="form-group col-4">
                         <label>Mobile phone number</label>
@@ -68,6 +105,7 @@ class StudentAdd extends React.Component {
                             onChange={this.onChangeHandler}
                             value={student.mobile}
                         />
+                        {errors.mobile && <p className="error">{errors.mobile}</p>}
                     </div>
                     <div className="form-group col-4">
                         <label>School Name</label>
@@ -126,6 +164,7 @@ class StudentAdd extends React.Component {
                             onChange={this.onChangeHandler}
                             value={student.state}
                         />
+                        {errors.state && <p className="error">{errors.state}</p>}
                     </div>
                     <div className="form-group col-4">
                         <label>Country</label>
@@ -136,8 +175,12 @@ class StudentAdd extends React.Component {
                             onChange={this.onChangeHandler}
                             value={student.country}
                         />
+                        {errors.country && <p className="error">{errors.country}</p>}
                     </div>
                 </div>
+                {
+                    globalError && <p className="error">{globalError}</p>
+                }
                 <div className="btn-container">
                     <button
                         type="button"
