@@ -74,7 +74,7 @@ class StudentAdd extends React.Component {
         return (
             <form>
                 <div className="row">
-                    <div className="form-group col-4">
+                    <div className="form-group col-lg-4 col-sm-6">
                         <label>Name</label>
                         <input
                             type="text"
@@ -85,7 +85,7 @@ class StudentAdd extends React.Component {
                         />
                         {errors.name && <p className="error">{errors.name}</p>}
                     </div>
-                    <div className="form-group col-4">
+                    <div className="form-group col-lg-4 col-sm-6">
                         <label>Email Address</label>
                         <input
                             type="email"
@@ -96,7 +96,7 @@ class StudentAdd extends React.Component {
                         />
                         {errors.email && <p className="error">{errors.email}</p>}
                     </div>
-                    <div className="form-group col-4">
+                    <div className="form-group col-lg-4 col-sm-6">
                         <label>Mobile phone number</label>
                         <input
                             type="text"
@@ -107,7 +107,7 @@ class StudentAdd extends React.Component {
                         />
                         {errors.mobile && <p className="error">{errors.mobile}</p>}
                     </div>
-                    <div className="form-group col-4">
+                    <div className="form-group col-lg-4 col-sm-6">
                         <label>School Name</label>
                         <select
                             className="form-control"
@@ -123,7 +123,7 @@ class StudentAdd extends React.Component {
                             <option value="School 5">School 5</option>
                         </select>
                     </div>
-                    <div className="form-group col-4">
+                    <div className="form-group col-lg-4 col-sm-6">
                         <label>Standard</label>
                         <select
                             className="form-control"
@@ -139,7 +139,7 @@ class StudentAdd extends React.Component {
                             <option value="Standard 5">Standard 5</option>
                         </select>
                     </div>
-                    <div className="form-group col-4">
+                    <div className="form-group col-lg-4 col-sm-6">
                         <label>Division</label>
                         <select
                             className="form-control"
@@ -155,7 +155,7 @@ class StudentAdd extends React.Component {
                             <option value="Division 5">Division 5</option>
                         </select>
                     </div>
-                    <div className="form-group col-4">
+                    <div className="form-group col-lg-4 col-sm-6">
                         <label>State</label>
                         <input
                             type="text"
@@ -166,7 +166,7 @@ class StudentAdd extends React.Component {
                         />
                         {errors.state && <p className="error">{errors.state}</p>}
                     </div>
-                    <div className="form-group col-4">
+                    <div className="form-group col-lg-4 col-sm-6">
                         <label>Country</label>
                         <input
                             type="text"

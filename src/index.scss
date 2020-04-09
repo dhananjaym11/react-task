@@ -44,3 +44,23 @@ a {
   font-size: 1.2rem;
   margin: 5px 0 0;
 }
+
+@media (max-width: 768px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 576px) {
+  html {
+    font-size: 9px;
+  }
+
+  .student-list {
+    .student-filter {
+      .filter-col {
+        margin-bottom: 7px;
+      }
+    }
+  }
+}

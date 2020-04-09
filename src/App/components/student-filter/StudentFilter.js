@@ -23,10 +23,10 @@ class StudentFilter extends React.Component {
             <div className="student-filter">
                 <form>
                     <div className="row">
-                        <div className="col-2">
+                        <div className="filter-col col-lg-2 col-sm-3">
                             <h4>Filters:</h4>
                         </div>
-                        <div className="col-2">
+                        <div className="filter-col col-lg-2 col-sm-3">
                             <label>School Name</label>
                             <select
                                 className="form-control"
@@ -42,7 +42,7 @@ class StudentFilter extends React.Component {
                                 <option value="School 5">School 5</option>
                             </select>
                         </div>
-                        <div className="col-2">
+                        <div className="filter-col col-lg-2 col-sm-3">
                             <label>Standard</label>
                             <select
                                 className="form-control"
@@ -58,7 +58,7 @@ class StudentFilter extends React.Component {
                                 <option value="Standard 5">Standard 5</option>
                             </select>
                         </div>
-                        <div className="col-2">
+                        <div className="filter-col col-lg-2 col-sm-3">
                             <label>Division</label>
                             <select
                                 className="form-control"
@@ -74,7 +74,7 @@ class StudentFilter extends React.Component {
                                 <option value="Division 5">Division 5</option>
                             </select>
                         </div>
-                        <div className="col-2 filter-btn">
+                        <div className="filter-col col-lg-2 col-sm-3 filter-btn">
                             <button
                                 type="button"
                                 className="btn btn-primary"

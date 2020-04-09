@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 const StudentItem = ({ student }) => (
-    <div className="col-4">
+    <div className="col-lg-4 col-sm-6">
         <div className="student-item">
             <Link to={`/students/${student.id}`} className="details-link">
                 <span>

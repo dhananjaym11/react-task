@@ -5,15 +5,24 @@
         border: 1px solid #ccc;
         padding: 10px 15px 15px;
 
-        .col-2 {
+        .filter-col {
             align-self: center;
+
+            h4 {
+                margin: 0;
+            }
 
             &.filter-btn {
                 align-self: flex-end;
 
                 .btn {
-                    font-size: 1.2rem;
+                    font-size: 1.1rem;
                 }
+            }
+
+            label {
+                font-size: 1.1rem;
+                margin:0;
             }
         }
     }
@@ -28,10 +37,23 @@
             > span {
                 display: block;
 
-                > span:first-child {
-                    font-weight: 600;
-                    display: inline-block;
-                    width: 110px;
+                &::after {
+                    content: '';
+                    display: table;
+                    clear: both;
+                }
+
+                > span {
+                    float: left;
+                    word-break: break-all;
+
+                    &:first-child {
+                        font-weight: 600;
+                        width: 110px;
+                    }
+                    &:last-child {
+                        width: calc(100% - 110px);
+                    }
                 }
             }
         }

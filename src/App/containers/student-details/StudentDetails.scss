@@ -1,9 +1,22 @@
 .student-details {
     div {
-        span:first-child {
-            font-weight: 600;
-            width: 115px;
-            display: inline-block;
+        &::after {
+            content: '';
+            display: table;
+            clear: both;
+        }
+        
+        > span {
+            float: left;
+            word-break: break-all;
+
+            &:first-child {
+                font-weight: 600;
+                width: 110px;
+            }
+            &:last-child {
+                width: calc(100% - 110px);
+            }
         }
     }
 }
