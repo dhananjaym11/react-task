@@ -2,7 +2,11 @@ import React from 'react';
 
 class StudentFilter extends React.Component {
     state = {
-        filters: {}
+        filters: {
+            school: '',
+            standard: '',
+            division: ''
+        }
     }
 
     onChangeHandler = (e) => {
@@ -15,6 +19,18 @@ class StudentFilter extends React.Component {
 
     onSubmitHandler = () => {
         this.props.onFilterHandler(this.state.filters);
+    }
+
+    onResetHandler = () => {
+        this.setState({
+            filters: {
+                school: '',
+                standard: '',
+                division: ''
+            }
+        },
+            () => this.props.onFilterHandler(this.state.filters)
+        )
     }
 
     render() {
@@ -80,6 +96,11 @@ class StudentFilter extends React.Component {
                                 className="btn btn-primary"
                                 onClick={this.onSubmitHandler}
                             >Apply</button>
+                            <button
+                                type="button"
+                                className="btn btn-secondary"
+                                onClick={this.onResetHandler}
+                            >Reset</button>
                         </div>
                     </div>
                 </form>

@@ -50,7 +50,8 @@ class StudentAdd extends React.Component {
 
         this.setState({
             student,
-            errors
+            errors,
+            globalError: ''
         })
     }
 
@@ -71,6 +72,8 @@ class StudentAdd extends React.Component {
 
     render() {
         const { student, errors, globalError } = this.state;
+        const isError = Object.values(this.state.errors).filter(e => e !== '');
+
         return (
             <form>
                 <div className="row">
@@ -186,6 +189,7 @@ class StudentAdd extends React.Component {
                         type="button"
                         className="btn btn-primary"
                         onClick={this.onSubmitHandler}
+                        disabled={isError.length !== 0}
                     >Submit</button>
                     <button
                         type="button"

@@ -15,7 +15,6 @@ class StudentListContainer extends React.Component {
     }
 
     onFilterHandler = (filters) => {
-        console.log(filters);
         this.setState({
             filters
         })
