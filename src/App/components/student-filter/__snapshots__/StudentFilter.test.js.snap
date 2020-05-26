@@ -1,0 +1,2338 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test StudentFilter component 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <StudentFilter />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <form>
+        <div
+          className="row"
+        >
+          <div
+            className="filter-col col-lg-2 col-sm-3"
+          >
+            <h4>
+              Filters:
+            </h4>
+          </div>
+          <div
+            className="filter-col col-lg-2 col-sm-3"
+          >
+            <label>
+              School Name
+            </label>
+            <select
+              className="form-control"
+              name="school"
+              onChange={[Function]}
+              value=""
+            >
+              <option
+                value=""
+              >
+                select
+              </option>
+              <option
+                value="School 1"
+              >
+                School 1
+              </option>
+              <option
+                value="School 2"
+              >
+                School 2
+              </option>
+              <option
+                value="School 3"
+              >
+                School 3
+              </option>
+              <option
+                value="School 4"
+              >
+                School 4
+              </option>
+              <option
+                value="School 5"
+              >
+                School 5
+              </option>
+            </select>
+          </div>
+          <div
+            className="filter-col col-lg-2 col-sm-3"
+          >
+            <label>
+              Standard
+            </label>
+            <select
+              className="form-control"
+              name="standard"
+              onChange={[Function]}
+              value=""
+            >
+              <option
+                value=""
+              >
+                select
+              </option>
+              <option
+                value="Standard 1"
+              >
+                Standard 1
+              </option>
+              <option
+                value="Standard 2"
+              >
+                Standard 2
+              </option>
+              <option
+                value="Standard 3"
+              >
+                Standard 3
+              </option>
+              <option
+                value="Standard 4"
+              >
+                Standard 4
+              </option>
+              <option
+                value="Standard 5"
+              >
+                Standard 5
+              </option>
+            </select>
+          </div>
+          <div
+            className="filter-col col-lg-2 col-sm-3"
+          >
+            <label>
+              Division
+            </label>
+            <select
+              className="form-control"
+              name="division"
+              onChange={[Function]}
+              value=""
+            >
+              <option
+                value=""
+              >
+                select
+              </option>
+              <option
+                value="Division 1"
+              >
+                Division 1
+              </option>
+              <option
+                value="Division 2"
+              >
+                Division 2
+              </option>
+              <option
+                value="Division 3"
+              >
+                Division 3
+              </option>
+              <option
+                value="Division 4"
+              >
+                Division 4
+              </option>
+              <option
+                value="Division 5"
+              >
+                Division 5
+              </option>
+            </select>
+          </div>
+          <div
+            className="filter-col col-lg-2 col-sm-3 filter-btn"
+          >
+            <button
+              className="btn btn-primary"
+              onClick={[Function]}
+              type="button"
+            >
+              Apply
+            </button>
+            <button
+              className="btn btn-secondary"
+              onClick={[Function]}
+              type="button"
+            >
+              Reset
+            </button>
+          </div>
+        </div>
+      </form>,
+      "className": "student-filter",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="row"
+        >
+          <div
+            className="filter-col col-lg-2 col-sm-3"
+          >
+            <h4>
+              Filters:
+            </h4>
+          </div>
+          <div
+            className="filter-col col-lg-2 col-sm-3"
+          >
+            <label>
+              School Name
+            </label>
+            <select
+              className="form-control"
+              name="school"
+              onChange={[Function]}
+              value=""
+            >
+              <option
+                value=""
+              >
+                select
+              </option>
+              <option
+                value="School 1"
+              >
+                School 1
+              </option>
+              <option
+                value="School 2"
+              >
+                School 2
+              </option>
+              <option
+                value="School 3"
+              >
+                School 3
+              </option>
+              <option
+                value="School 4"
+              >
+                School 4
+              </option>
+              <option
+                value="School 5"
+              >
+                School 5
+              </option>
+            </select>
+          </div>
+          <div
+            className="filter-col col-lg-2 col-sm-3"
+          >
+            <label>
+              Standard
+            </label>
+            <select
+              className="form-control"
+              name="standard"
+              onChange={[Function]}
+              value=""
+            >
+              <option
+                value=""
+              >
+                select
+              </option>
+              <option
+                value="Standard 1"
+              >
+                Standard 1
+              </option>
+              <option
+                value="Standard 2"
+              >
+                Standard 2
+              </option>
+              <option
+                value="Standard 3"
+              >
+                Standard 3
+              </option>
+              <option
+                value="Standard 4"
+              >
+                Standard 4
+              </option>
+              <option
+                value="Standard 5"
+              >
+                Standard 5
+              </option>
+            </select>
+          </div>
+          <div
+            className="filter-col col-lg-2 col-sm-3"
+          >
+            <label>
+              Division
+            </label>
+            <select
+              className="form-control"
+              name="division"
+              onChange={[Function]}
+              value=""
+            >
+              <option
+                value=""
+              >
+                select
+              </option>
+              <option
+                value="Division 1"
+              >
+                Division 1
+              </option>
+              <option
+                value="Division 2"
+              >
+                Division 2
+              </option>
+              <option
+                value="Division 3"
+              >
+                Division 3
+              </option>
+              <option
+                value="Division 4"
+              >
+                Division 4
+              </option>
+              <option
+                value="Division 5"
+              >
+                Division 5
+              </option>
+            </select>
+          </div>
+          <div
+            className="filter-col col-lg-2 col-sm-3 filter-btn"
+          >
+            <button
+              className="btn btn-primary"
+              onClick={[Function]}
+              type="button"
+            >
+              Apply
+            </button>
+            <button
+              className="btn btn-secondary"
+              onClick={[Function]}
+              type="button"
+            >
+              Reset
+            </button>
+          </div>
+        </div>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="filter-col col-lg-2 col-sm-3"
+            >
+              <h4>
+                Filters:
+              </h4>
+            </div>,
+            <div
+              className="filter-col col-lg-2 col-sm-3"
+            >
+              <label>
+                School Name
+              </label>
+              <select
+                className="form-control"
+                name="school"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  value=""
+                >
+                  select
+                </option>
+                <option
+                  value="School 1"
+                >
+                  School 1
+                </option>
+                <option
+                  value="School 2"
+                >
+                  School 2
+                </option>
+                <option
+                  value="School 3"
+                >
+                  School 3
+                </option>
+                <option
+                  value="School 4"
+                >
+                  School 4
+                </option>
+                <option
+                  value="School 5"
+                >
+                  School 5
+                </option>
+              </select>
+            </div>,
+            <div
+              className="filter-col col-lg-2 col-sm-3"
+            >
+              <label>
+                Standard
+              </label>
+              <select
+                className="form-control"
+                name="standard"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  value=""
+                >
+                  select
+                </option>
+                <option
+                  value="Standard 1"
+                >
+                  Standard 1
+                </option>
+                <option
+                  value="Standard 2"
+                >
+                  Standard 2
+                </option>
+                <option
+                  value="Standard 3"
+                >
+                  Standard 3
+                </option>
+                <option
+                  value="Standard 4"
+                >
+                  Standard 4
+                </option>
+                <option
+                  value="Standard 5"
+                >
+                  Standard 5
+                </option>
+              </select>
+            </div>,
+            <div
+              className="filter-col col-lg-2 col-sm-3"
+            >
+              <label>
+                Division
+              </label>
+              <select
+                className="form-control"
+                name="division"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  value=""
+                >
+                  select
+                </option>
+                <option
+                  value="Division 1"
+                >
+                  Division 1
+                </option>
+                <option
+                  value="Division 2"
+                >
+                  Division 2
+                </option>
+                <option
+                  value="Division 3"
+                >
+                  Division 3
+                </option>
+                <option
+                  value="Division 4"
+                >
+                  Division 4
+                </option>
+                <option
+                  value="Division 5"
+                >
+                  Division 5
+                </option>
+              </select>
+            </div>,
+            <div
+              className="filter-col col-lg-2 col-sm-3 filter-btn"
+            >
+              <button
+                className="btn btn-primary"
+                onClick={[Function]}
+                type="button"
+              >
+                Apply
+              </button>
+              <button
+                className="btn btn-secondary"
+                onClick={[Function]}
+                type="button"
+              >
+                Reset
+              </button>
+            </div>,
+          ],
+          "className": "row",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h4>
+                Filters:
+              </h4>,
+              "className": "filter-col col-lg-2 col-sm-3",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Filters:",
+              },
+              "ref": null,
+              "rendered": "Filters:",
+              "type": "h4",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label>
+                  School Name
+                </label>,
+                <select
+                  className="form-control"
+                  name="school"
+                  onChange={[Function]}
+                  value=""
+                >
+                  <option
+                    value=""
+                  >
+                    select
+                  </option>
+                  <option
+                    value="School 1"
+                  >
+                    School 1
+                  </option>
+                  <option
+                    value="School 2"
+                  >
+                    School 2
+                  </option>
+                  <option
+                    value="School 3"
+                  >
+                    School 3
+                  </option>
+                  <option
+                    value="School 4"
+                  >
+                    School 4
+                  </option>
+                  <option
+                    value="School 5"
+                  >
+                    School 5
+                  </option>
+                </select>,
+              ],
+              "className": "filter-col col-lg-2 col-sm-3",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "School Name",
+                },
+                "ref": null,
+                "rendered": "School Name",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <option
+                      value=""
+                    >
+                      select
+                    </option>,
+                    <option
+                      value="School 1"
+                    >
+                      School 1
+                    </option>,
+                    <option
+                      value="School 2"
+                    >
+                      School 2
+                    </option>,
+                    <option
+                      value="School 3"
+                    >
+                      School 3
+                    </option>,
+                    <option
+                      value="School 4"
+                    >
+                      School 4
+                    </option>,
+                    <option
+                      value="School 5"
+                    >
+                      School 5
+                    </option>,
+                  ],
+                  "className": "form-control",
+                  "name": "school",
+                  "onChange": [Function],
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "select",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": "select",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "School 1",
+                      "value": "School 1",
+                    },
+                    "ref": null,
+                    "rendered": "School 1",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "School 2",
+                      "value": "School 2",
+                    },
+                    "ref": null,
+                    "rendered": "School 2",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "School 3",
+                      "value": "School 3",
+                    },
+                    "ref": null,
+                    "rendered": "School 3",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "School 4",
+                      "value": "School 4",
+                    },
+                    "ref": null,
+                    "rendered": "School 4",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "School 5",
+                      "value": "School 5",
+                    },
+                    "ref": null,
+                    "rendered": "School 5",
+                    "type": "option",
+                  },
+                ],
+                "type": "select",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label>
+                  Standard
+                </label>,
+                <select
+                  className="form-control"
+                  name="standard"
+                  onChange={[Function]}
+                  value=""
+                >
+                  <option
+                    value=""
+                  >
+                    select
+                  </option>
+                  <option
+                    value="Standard 1"
+                  >
+                    Standard 1
+                  </option>
+                  <option
+                    value="Standard 2"
+                  >
+                    Standard 2
+                  </option>
+                  <option
+                    value="Standard 3"
+                  >
+                    Standard 3
+                  </option>
+                  <option
+                    value="Standard 4"
+                  >
+                    Standard 4
+                  </option>
+                  <option
+                    value="Standard 5"
+                  >
+                    Standard 5
+                  </option>
+                </select>,
+              ],
+              "className": "filter-col col-lg-2 col-sm-3",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Standard",
+                },
+                "ref": null,
+                "rendered": "Standard",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <option
+                      value=""
+                    >
+                      select
+                    </option>,
+                    <option
+                      value="Standard 1"
+                    >
+                      Standard 1
+                    </option>,
+                    <option
+                      value="Standard 2"
+                    >
+                      Standard 2
+                    </option>,
+                    <option
+                      value="Standard 3"
+                    >
+                      Standard 3
+                    </option>,
+                    <option
+                      value="Standard 4"
+                    >
+                      Standard 4
+                    </option>,
+                    <option
+                      value="Standard 5"
+                    >
+                      Standard 5
+                    </option>,
+                  ],
+                  "className": "form-control",
+                  "name": "standard",
+                  "onChange": [Function],
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "select",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": "select",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Standard 1",
+                      "value": "Standard 1",
+                    },
+                    "ref": null,
+                    "rendered": "Standard 1",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Standard 2",
+                      "value": "Standard 2",
+                    },
+                    "ref": null,
+                    "rendered": "Standard 2",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Standard 3",
+                      "value": "Standard 3",
+                    },
+                    "ref": null,
+                    "rendered": "Standard 3",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Standard 4",
+                      "value": "Standard 4",
+                    },
+                    "ref": null,
+                    "rendered": "Standard 4",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Standard 5",
+                      "value": "Standard 5",
+                    },
+                    "ref": null,
+                    "rendered": "Standard 5",
+                    "type": "option",
+                  },
+                ],
+                "type": "select",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label>
+                  Division
+                </label>,
+                <select
+                  className="form-control"
+                  name="division"
+                  onChange={[Function]}
+                  value=""
+                >
+                  <option
+                    value=""
+                  >
+                    select
+                  </option>
+                  <option
+                    value="Division 1"
+                  >
+                    Division 1
+                  </option>
+                  <option
+                    value="Division 2"
+                  >
+                    Division 2
+                  </option>
+                  <option
+                    value="Division 3"
+                  >
+                    Division 3
+                  </option>
+                  <option
+                    value="Division 4"
+                  >
+                    Division 4
+                  </option>
+                  <option
+                    value="Division 5"
+                  >
+                    Division 5
+                  </option>
+                </select>,
+              ],
+              "className": "filter-col col-lg-2 col-sm-3",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Division",
+                },
+                "ref": null,
+                "rendered": "Division",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <option
+                      value=""
+                    >
+                      select
+                    </option>,
+                    <option
+                      value="Division 1"
+                    >
+                      Division 1
+                    </option>,
+                    <option
+                      value="Division 2"
+                    >
+                      Division 2
+                    </option>,
+                    <option
+                      value="Division 3"
+                    >
+                      Division 3
+                    </option>,
+                    <option
+                      value="Division 4"
+                    >
+                      Division 4
+                    </option>,
+                    <option
+                      value="Division 5"
+                    >
+                      Division 5
+                    </option>,
+                  ],
+                  "className": "form-control",
+                  "name": "division",
+                  "onChange": [Function],
+                  "value": "",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "select",
+                      "value": "",
+                    },
+                    "ref": null,
+                    "rendered": "select",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Division 1",
+                      "value": "Division 1",
+                    },
+                    "ref": null,
+                    "rendered": "Division 1",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Division 2",
+                      "value": "Division 2",
+                    },
+                    "ref": null,
+                    "rendered": "Division 2",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Division 3",
+                      "value": "Division 3",
+                    },
+                    "ref": null,
+                    "rendered": "Division 3",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Division 4",
+                      "value": "Division 4",
+                    },
+                    "ref": null,
+                    "rendered": "Division 4",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Division 5",
+                      "value": "Division 5",
+                    },
+                    "ref": null,
+                    "rendered": "Division 5",
+                    "type": "option",
+                  },
+                ],
+                "type": "select",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <button
+                  className="btn btn-primary"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Apply
+                </button>,
+                <button
+                  className="btn btn-secondary"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Reset
+                </button>,
+              ],
+              "className": "filter-col col-lg-2 col-sm-3 filter-btn",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Apply",
+                  "className": "btn btn-primary",
+                  "onClick": [Function],
+                  "type": "button",
+                },
+                "ref": null,
+                "rendered": "Apply",
+                "type": "button",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Reset",
+                  "className": "btn btn-secondary",
+                  "onClick": [Function],
+                  "type": "button",
+                },
+                "ref": null,
+                "rendered": "Reset",
+                "type": "button",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "form",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <form>
+          <div
+            className="row"
+          >
+            <div
+              className="filter-col col-lg-2 col-sm-3"
+            >
+              <h4>
+                Filters:
+              </h4>
+            </div>
+            <div
+              className="filter-col col-lg-2 col-sm-3"
+            >
+              <label>
+                School Name
+              </label>
+              <select
+                className="form-control"
+                name="school"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  value=""
+                >
+                  select
+                </option>
+                <option
+                  value="School 1"
+                >
+                  School 1
+                </option>
+                <option
+                  value="School 2"
+                >
+                  School 2
+                </option>
+                <option
+                  value="School 3"
+                >
+                  School 3
+                </option>
+                <option
+                  value="School 4"
+                >
+                  School 4
+                </option>
+                <option
+                  value="School 5"
+                >
+                  School 5
+                </option>
+              </select>
+            </div>
+            <div
+              className="filter-col col-lg-2 col-sm-3"
+            >
+              <label>
+                Standard
+              </label>
+              <select
+                className="form-control"
+                name="standard"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  value=""
+                >
+                  select
+                </option>
+                <option
+                  value="Standard 1"
+                >
+                  Standard 1
+                </option>
+                <option
+                  value="Standard 2"
+                >
+                  Standard 2
+                </option>
+                <option
+                  value="Standard 3"
+                >
+                  Standard 3
+                </option>
+                <option
+                  value="Standard 4"
+                >
+                  Standard 4
+                </option>
+                <option
+                  value="Standard 5"
+                >
+                  Standard 5
+                </option>
+              </select>
+            </div>
+            <div
+              className="filter-col col-lg-2 col-sm-3"
+            >
+              <label>
+                Division
+              </label>
+              <select
+                className="form-control"
+                name="division"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  value=""
+                >
+                  select
+                </option>
+                <option
+                  value="Division 1"
+                >
+                  Division 1
+                </option>
+                <option
+                  value="Division 2"
+                >
+                  Division 2
+                </option>
+                <option
+                  value="Division 3"
+                >
+                  Division 3
+                </option>
+                <option
+                  value="Division 4"
+                >
+                  Division 4
+                </option>
+                <option
+                  value="Division 5"
+                >
+                  Division 5
+                </option>
+              </select>
+            </div>
+            <div
+              className="filter-col col-lg-2 col-sm-3 filter-btn"
+            >
+              <button
+                className="btn btn-primary"
+                onClick={[Function]}
+                type="button"
+              >
+                Apply
+              </button>
+              <button
+                className="btn btn-secondary"
+                onClick={[Function]}
+                type="button"
+              >
+                Reset
+              </button>
+            </div>
+          </div>
+        </form>,
+        "className": "student-filter",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="row"
+          >
+            <div
+              className="filter-col col-lg-2 col-sm-3"
+            >
+              <h4>
+                Filters:
+              </h4>
+            </div>
+            <div
+              className="filter-col col-lg-2 col-sm-3"
+            >
+              <label>
+                School Name
+              </label>
+              <select
+                className="form-control"
+                name="school"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  value=""
+                >
+                  select
+                </option>
+                <option
+                  value="School 1"
+                >
+                  School 1
+                </option>
+                <option
+                  value="School 2"
+                >
+                  School 2
+                </option>
+                <option
+                  value="School 3"
+                >
+                  School 3
+                </option>
+                <option
+                  value="School 4"
+                >
+                  School 4
+                </option>
+                <option
+                  value="School 5"
+                >
+                  School 5
+                </option>
+              </select>
+            </div>
+            <div
+              className="filter-col col-lg-2 col-sm-3"
+            >
+              <label>
+                Standard
+              </label>
+              <select
+                className="form-control"
+                name="standard"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  value=""
+                >
+                  select
+                </option>
+                <option
+                  value="Standard 1"
+                >
+                  Standard 1
+                </option>
+                <option
+                  value="Standard 2"
+                >
+                  Standard 2
+                </option>
+                <option
+                  value="Standard 3"
+                >
+                  Standard 3
+                </option>
+                <option
+                  value="Standard 4"
+                >
+                  Standard 4
+                </option>
+                <option
+                  value="Standard 5"
+                >
+                  Standard 5
+                </option>
+              </select>
+            </div>
+            <div
+              className="filter-col col-lg-2 col-sm-3"
+            >
+              <label>
+                Division
+              </label>
+              <select
+                className="form-control"
+                name="division"
+                onChange={[Function]}
+                value=""
+              >
+                <option
+                  value=""
+                >
+                  select
+                </option>
+                <option
+                  value="Division 1"
+                >
+                  Division 1
+                </option>
+                <option
+                  value="Division 2"
+                >
+                  Division 2
+                </option>
+                <option
+                  value="Division 3"
+                >
+                  Division 3
+                </option>
+                <option
+                  value="Division 4"
+                >
+                  Division 4
+                </option>
+                <option
+                  value="Division 5"
+                >
+                  Division 5
+                </option>
+              </select>
+            </div>
+            <div
+              className="filter-col col-lg-2 col-sm-3 filter-btn"
+            >
+              <button
+                className="btn btn-primary"
+                onClick={[Function]}
+                type="button"
+              >
+                Apply
+              </button>
+              <button
+                className="btn btn-secondary"
+                onClick={[Function]}
+                type="button"
+              >
+                Reset
+              </button>
+            </div>
+          </div>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="filter-col col-lg-2 col-sm-3"
+              >
+                <h4>
+                  Filters:
+                </h4>
+              </div>,
+              <div
+                className="filter-col col-lg-2 col-sm-3"
+              >
+                <label>
+                  School Name
+                </label>
+                <select
+                  className="form-control"
+                  name="school"
+                  onChange={[Function]}
+                  value=""
+                >
+                  <option
+                    value=""
+                  >
+                    select
+                  </option>
+                  <option
+                    value="School 1"
+                  >
+                    School 1
+                  </option>
+                  <option
+                    value="School 2"
+                  >
+                    School 2
+                  </option>
+                  <option
+                    value="School 3"
+                  >
+                    School 3
+                  </option>
+                  <option
+                    value="School 4"
+                  >
+                    School 4
+                  </option>
+                  <option
+                    value="School 5"
+                  >
+                    School 5
+                  </option>
+                </select>
+              </div>,
+              <div
+                className="filter-col col-lg-2 col-sm-3"
+              >
+                <label>
+                  Standard
+                </label>
+                <select
+                  className="form-control"
+                  name="standard"
+                  onChange={[Function]}
+                  value=""
+                >
+                  <option
+                    value=""
+                  >
+                    select
+                  </option>
+                  <option
+                    value="Standard 1"
+                  >
+                    Standard 1
+                  </option>
+                  <option
+                    value="Standard 2"
+                  >
+                    Standard 2
+                  </option>
+                  <option
+                    value="Standard 3"
+                  >
+                    Standard 3
+                  </option>
+                  <option
+                    value="Standard 4"
+                  >
+                    Standard 4
+                  </option>
+                  <option
+                    value="Standard 5"
+                  >
+                    Standard 5
+                  </option>
+                </select>
+              </div>,
+              <div
+                className="filter-col col-lg-2 col-sm-3"
+              >
+                <label>
+                  Division
+                </label>
+                <select
+                  className="form-control"
+                  name="division"
+                  onChange={[Function]}
+                  value=""
+                >
+                  <option
+                    value=""
+                  >
+                    select
+                  </option>
+                  <option
+                    value="Division 1"
+                  >
+                    Division 1
+                  </option>
+                  <option
+                    value="Division 2"
+                  >
+                    Division 2
+                  </option>
+                  <option
+                    value="Division 3"
+                  >
+                    Division 3
+                  </option>
+                  <option
+                    value="Division 4"
+                  >
+                    Division 4
+                  </option>
+                  <option
+                    value="Division 5"
+                  >
+                    Division 5
+                  </option>
+                </select>
+              </div>,
+              <div
+                className="filter-col col-lg-2 col-sm-3 filter-btn"
+              >
+                <button
+                  className="btn btn-primary"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Apply
+                </button>
+                <button
+                  className="btn btn-secondary"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Reset
+                </button>
+              </div>,
+            ],
+            "className": "row",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h4>
+                  Filters:
+                </h4>,
+                "className": "filter-col col-lg-2 col-sm-3",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Filters:",
+                },
+                "ref": null,
+                "rendered": "Filters:",
+                "type": "h4",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label>
+                    School Name
+                  </label>,
+                  <select
+                    className="form-control"
+                    name="school"
+                    onChange={[Function]}
+                    value=""
+                  >
+                    <option
+                      value=""
+                    >
+                      select
+                    </option>
+                    <option
+                      value="School 1"
+                    >
+                      School 1
+                    </option>
+                    <option
+                      value="School 2"
+                    >
+                      School 2
+                    </option>
+                    <option
+                      value="School 3"
+                    >
+                      School 3
+                    </option>
+                    <option
+                      value="School 4"
+                    >
+                      School 4
+                    </option>
+                    <option
+                      value="School 5"
+                    >
+                      School 5
+                    </option>
+                  </select>,
+                ],
+                "className": "filter-col col-lg-2 col-sm-3",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "School Name",
+                  },
+                  "ref": null,
+                  "rendered": "School Name",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <option
+                        value=""
+                      >
+                        select
+                      </option>,
+                      <option
+                        value="School 1"
+                      >
+                        School 1
+                      </option>,
+                      <option
+                        value="School 2"
+                      >
+                        School 2
+                      </option>,
+                      <option
+                        value="School 3"
+                      >
+                        School 3
+                      </option>,
+                      <option
+                        value="School 4"
+                      >
+                        School 4
+                      </option>,
+                      <option
+                        value="School 5"
+                      >
+                        School 5
+                      </option>,
+                    ],
+                    "className": "form-control",
+                    "name": "school",
+                    "onChange": [Function],
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "select",
+                        "value": "",
+                      },
+                      "ref": null,
+                      "rendered": "select",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "School 1",
+                        "value": "School 1",
+                      },
+                      "ref": null,
+                      "rendered": "School 1",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "School 2",
+                        "value": "School 2",
+                      },
+                      "ref": null,
+                      "rendered": "School 2",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "School 3",
+                        "value": "School 3",
+                      },
+                      "ref": null,
+                      "rendered": "School 3",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "School 4",
+                        "value": "School 4",
+                      },
+                      "ref": null,
+                      "rendered": "School 4",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "School 5",
+                        "value": "School 5",
+                      },
+                      "ref": null,
+                      "rendered": "School 5",
+                      "type": "option",
+                    },
+                  ],
+                  "type": "select",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label>
+                    Standard
+                  </label>,
+                  <select
+                    className="form-control"
+                    name="standard"
+                    onChange={[Function]}
+                    value=""
+                  >
+                    <option
+                      value=""
+                    >
+                      select
+                    </option>
+                    <option
+                      value="Standard 1"
+                    >
+                      Standard 1
+                    </option>
+                    <option
+                      value="Standard 2"
+                    >
+                      Standard 2
+                    </option>
+                    <option
+                      value="Standard 3"
+                    >
+                      Standard 3
+                    </option>
+                    <option
+                      value="Standard 4"
+                    >
+                      Standard 4
+                    </option>
+                    <option
+                      value="Standard 5"
+                    >
+                      Standard 5
+                    </option>
+                  </select>,
+                ],
+                "className": "filter-col col-lg-2 col-sm-3",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Standard",
+                  },
+                  "ref": null,
+                  "rendered": "Standard",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <option
+                        value=""
+                      >
+                        select
+                      </option>,
+                      <option
+                        value="Standard 1"
+                      >
+                        Standard 1
+                      </option>,
+                      <option
+                        value="Standard 2"
+                      >
+                        Standard 2
+                      </option>,
+                      <option
+                        value="Standard 3"
+                      >
+                        Standard 3
+                      </option>,
+                      <option
+                        value="Standard 4"
+                      >
+                        Standard 4
+                      </option>,
+                      <option
+                        value="Standard 5"
+                      >
+                        Standard 5
+                      </option>,
+                    ],
+                    "className": "form-control",
+                    "name": "standard",
+                    "onChange": [Function],
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "select",
+                        "value": "",
+                      },
+                      "ref": null,
+                      "rendered": "select",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Standard 1",
+                        "value": "Standard 1",
+                      },
+                      "ref": null,
+                      "rendered": "Standard 1",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Standard 2",
+                        "value": "Standard 2",
+                      },
+                      "ref": null,
+                      "rendered": "Standard 2",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Standard 3",
+                        "value": "Standard 3",
+                      },
+                      "ref": null,
+                      "rendered": "Standard 3",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Standard 4",
+                        "value": "Standard 4",
+                      },
+                      "ref": null,
+                      "rendered": "Standard 4",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Standard 5",
+                        "value": "Standard 5",
+                      },
+                      "ref": null,
+                      "rendered": "Standard 5",
+                      "type": "option",
+                    },
+                  ],
+                  "type": "select",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label>
+                    Division
+                  </label>,
+                  <select
+                    className="form-control"
+                    name="division"
+                    onChange={[Function]}
+                    value=""
+                  >
+                    <option
+                      value=""
+                    >
+                      select
+                    </option>
+                    <option
+                      value="Division 1"
+                    >
+                      Division 1
+                    </option>
+                    <option
+                      value="Division 2"
+                    >
+                      Division 2
+                    </option>
+                    <option
+                      value="Division 3"
+                    >
+                      Division 3
+                    </option>
+                    <option
+                      value="Division 4"
+                    >
+                      Division 4
+                    </option>
+                    <option
+                      value="Division 5"
+                    >
+                      Division 5
+                    </option>
+                  </select>,
+                ],
+                "className": "filter-col col-lg-2 col-sm-3",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Division",
+                  },
+                  "ref": null,
+                  "rendered": "Division",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <option
+                        value=""
+                      >
+                        select
+                      </option>,
+                      <option
+                        value="Division 1"
+                      >
+                        Division 1
+                      </option>,
+                      <option
+                        value="Division 2"
+                      >
+                        Division 2
+                      </option>,
+                      <option
+                        value="Division 3"
+                      >
+                        Division 3
+                      </option>,
+                      <option
+                        value="Division 4"
+                      >
+                        Division 4
+                      </option>,
+                      <option
+                        value="Division 5"
+                      >
+                        Division 5
+                      </option>,
+                    ],
+                    "className": "form-control",
+                    "name": "division",
+                    "onChange": [Function],
+                    "value": "",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "select",
+                        "value": "",
+                      },
+                      "ref": null,
+                      "rendered": "select",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Division 1",
+                        "value": "Division 1",
+                      },
+                      "ref": null,
+                      "rendered": "Division 1",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Division 2",
+                        "value": "Division 2",
+                      },
+                      "ref": null,
+                      "rendered": "Division 2",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Division 3",
+                        "value": "Division 3",
+                      },
+                      "ref": null,
+                      "rendered": "Division 3",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Division 4",
+                        "value": "Division 4",
+                      },
+                      "ref": null,
+                      "rendered": "Division 4",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Division 5",
+                        "value": "Division 5",
+                      },
+                      "ref": null,
+                      "rendered": "Division 5",
+                      "type": "option",
+                    },
+                  ],
+                  "type": "select",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <button
+                    className="btn btn-primary"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Apply
+                  </button>,
+                  <button
+                    className="btn btn-secondary"
+                    onClick={[Function]}
+                    type="button"
+                  >
+                    Reset
+                  </button>,
+                ],
+                "className": "filter-col col-lg-2 col-sm-3 filter-btn",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Apply",
+                    "className": "btn btn-primary",
+                    "onClick": [Function],
+                    "type": "button",
+                  },
+                  "ref": null,
+                  "rendered": "Apply",
+                  "type": "button",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Reset",
+                    "className": "btn btn-secondary",
+                    "onClick": [Function],
+                    "type": "button",
+                  },
+                  "ref": null,
+                  "rendered": "Reset",
+                  "type": "button",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "form",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromError": true,
+          "getDerivedStateFromProps": Object {
+            "hasShouldComponentUpdateBug": false,
+          },
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    Symbol(enzyme.__providerValues__): undefined,
+  },
+  Symbol(enzyme.__providerValues__): Map {},
+  Symbol(enzyme.__childContext__): null,
+}
+`;
